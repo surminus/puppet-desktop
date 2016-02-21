@@ -12,5 +12,4 @@ class packages {
     $software: ensure => 'installed'
   }
 
-  include packages::launcher
 }
