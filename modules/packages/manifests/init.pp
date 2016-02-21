@@ -2,10 +2,14 @@
 #
 class packages {
   $software = [
+    'ack-grep',
+    'curl',
     'git',
-    'terminator',
     'google-chrome-stable',
     'spotify-client',
+    'terminator',
+    'wget',
+    'zsh',
   ]
 
   package {
