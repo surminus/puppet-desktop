@@ -12,6 +12,7 @@ class packages {
     'spotify-client',
     'terminator',
     'wget',
+    'xclip',
     'zsh',
   ]
 
