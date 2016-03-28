@@ -9,6 +9,7 @@ class packages {
     'google-chrome-stable',
     'network-manager-openconnect-gnome',
     'pass',
+    'rpl',
     'spotify-client',
     'terminator',
     'wget',
