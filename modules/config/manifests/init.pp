@@ -45,6 +45,11 @@ class config (
     target => "/home/$user/surminus/dotfiles/zshrc-ubuntu",
   }
 
+  file { "/home/$user/.gitconfig":
+    ensure => link,
+    target => "/home/$user/surminus/dotfiles/gitconfig",
+  }
+
   file { "/home/$user/.config/terminator":
     ensure => directory,
     owner  => $user,
